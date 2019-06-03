@@ -80,7 +80,7 @@ const TopBar = () => {
           <ContainerLeftSpan>TOPICS</ContainerLeftSpan><ContainerLeftSpan>SEARCH</ContainerLeftSpan>
         </ContainerLeft>
         <ContainerCenter>
-          <ContainerCenterSpan>GENERAL</ContainerCenterSpan><ContainerCenterSpan>BROWNBAG</ContainerCenterSpan><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
+          <ContainerCenterSpan>GENERAL</ContainerCenterSpan><ContainerCenterSpan>BROWNBAG</ContainerCenterSpan><ContainerCenterSpan>RANDOM</ContainerCenterSpan><ContainerCenterSpan>MUSIC</ContainerCenterSpan><ContainerCenterSpan>ANNOUNCEMENTS</ContainerCenterSpan>
         </ContainerCenter>
         <ContainerRight>
           <ContainerRightSpan>LOG IN</ContainerRightSpan>
