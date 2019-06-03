@@ -1,6 +1,7 @@
 import React from 'react';
 import Tab from './Tab';
 import styled from 'styled-components'
+import PropTypes from 'prop-types';
 
 const TabsTopicsTitle = styled.div`
   font-size: 12px;
@@ -47,4 +48,8 @@ const Tabs = props => {
 };
 
 // Make sure to use PropTypes to validate your types!
+Tab.propTypes = {
+  tabData: PropTypes.arrayOf(PropTypes.string.isRequired),
+  selectedTab: PropTypes.string.isRequired
+}
 export default Tabs;
