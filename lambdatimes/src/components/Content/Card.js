@@ -56,7 +56,7 @@ const Card = props => {
       <Headline>{props.card.headline}</Headline>
       <Author>
         <ImgCon>
-          <img style={imgStyle} src={props.card.img} />
+          <img alt="img" style={imgStyle} src={props.card.img} />
         </ImgCon>
         <AuthorSpan>By {props.card.author}</AuthorSpan>
       </Author>
